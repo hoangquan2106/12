@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let a = [-4,5,2,6,2,8];
+    let b = 0;
+    let c = a.length - 1;
+    while (b < c){
+        let d = a[b];
+        a[b] = a[c]
+        a[c] = d;
+        b++;
+        c--;
+    }
+    document.write(a);
+</script>
